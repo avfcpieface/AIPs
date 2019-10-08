@@ -63,3 +63,5 @@ To solve the versioning issue `Dated Versioning` will be introduced which can be
 Depending on what version is served specific methods will be loaded and overwrite older ones. This means we will never need to copy over or fully reimplement controllers of a previous version as we will simply provide a new version of a specific method in the version manifesto of the new API.
 
 _Versions that contained security issues or critical bugs will be removed upon discovery, fixing and releasing a new version._
+
+`/transactions/{typeGroup}/{typeId}`
